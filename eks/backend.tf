@@ -10,7 +10,7 @@ terraform {
     bucket         = "saklain-bucket"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "dynamodb-file"
+    dynamodb_table = "mydynamo"
     encrypt        = true
   }
 }
