@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "saklain-bucket"
+    bucket         = "saklaindemo-bucket"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "saklain-table"
