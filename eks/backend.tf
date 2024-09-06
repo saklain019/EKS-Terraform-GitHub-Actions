@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "saklaindemo-bucket"
+    bucket         = "saklain-bucket"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "saklain-table"
+    dynamodb_table = "demo-table"
     encrypt        = true
   }
 }
