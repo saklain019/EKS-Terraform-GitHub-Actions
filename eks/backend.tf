@@ -8,9 +8,9 @@ terraform {
   }
   backend "s3" {
     bucket         = "saklain-bucket"
-    region         = "ap-south-1"
+    region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "demo-table"
+    dynamodb_table = "firstdb-table"
     encrypt        = true
   }
 }
