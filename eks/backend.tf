@@ -7,7 +7,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "saklain-bucket"
+    bucket         = "mernstack-project-bucket"
     region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "firstdb-table"
