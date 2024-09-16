@@ -7,10 +7,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "mernstack-project-bucket"
-    region         = "ap-south-1"
+    bucket         = "nvirginia-table"
+    region         = "us-east-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "firstdb-table"
+    dynamodb_table = "nvirginia-bucket-mern"
     encrypt        = true
   }
 }
